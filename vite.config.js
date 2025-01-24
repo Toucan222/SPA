@@ -5,5 +5,8 @@ export default defineConfig({
     fs: {
       strict: false
     }
+  },
+  optimizeDeps: {
+    exclude: ['node-fetch']
   }
 })
