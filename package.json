@@ -1,16 +1,1 @@
-{
-  "name": "web-scraper",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "dev": "netlify dev",
-    "build": "netlify build",
-    "start": "netlify functions:serve"
-  },
-  "dependencies": {
-    "@supabase/supabase-js": "^2.39.0",
-    "axios": "^1.6.2",
-    "dotenv": "^16.3.1",
-    "netlify-cli": "^15.0.0"
-  }
-}
+...
