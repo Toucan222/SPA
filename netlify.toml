@@ -2,11 +2,8 @@
   functions = "functions"
   publish = "public"
 
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
-
 [dev]
   framework = "#static"
-  targetPort = 3999
+  targetPort = 8888
+  autoLaunch = true
+  command = "npm run dev"
